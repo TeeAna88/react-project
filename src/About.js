@@ -3,8 +3,8 @@ function About(){
         <div className="par">
            <div className="container">
             <h3 className="text">Store hours and location</h3>
-            <p>Monday - Friday: 9am - 7pm</p>
-            <p>Saturday - Sunday: 8am - 8pm</p>
+            <p>Mon - Fri: 9am - 7pm</p>
+            <p>Sat - Sun: 8am - 8pm</p>
             <p className="address">3054 South Pears St, Tampa, Fl 96371 </p>
             <h3 className="text">Contact Us</h3>
             <p>General inquiries: Around@thebooks.com</p>

@@ -3,11 +3,12 @@ import {image} from './image'
 
 
 function Slide () {
+ 
+    
 
-    const[]
     return (
 <div>
-
+    {image}
 </div>
     )
 }

@@ -98,11 +98,12 @@ nav{
 
 .authors{
   padding: 45px;
+  line-height: 1.8;
 }
 
 .container{
-  /* width: 800px;
-  height: 400px; */
+  width: 700px;
+  height: 500px;
   background-color: #739072;
   padding: 20px;
   margin: 20px;
@@ -110,6 +111,7 @@ nav{
 
 .about{
     padding: 50px;
+    line-height: 1.8;
 }
 .par{
   display: flex;
@@ -120,4 +122,52 @@ img{
   margin: 30px;
 }
 
+.order{
+  padding: 35px;
+}
 
+.more{
+  border: none;
+  background: #ECE3CE;
+  font-size: 18px;
+  color: #3A4D39;
+  font-weight: bolder;
+  
+}
+
+input{
+  height: 25px;
+  width: 300px;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-add{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #ECE3CE;
+  margin-left: 10px ;
+  border: none;
+  background-color: #739072;
+  width: 10%;
+  border-radius: 10px;
+}
+
+.button-delete{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  color: #ECE3CE;
+  margin-left: 10px ;
+  border: none;
+  background-color: #3D0C11;
+  width: 10%;
+  border-radius: 10px;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #3A4D39;
+}
