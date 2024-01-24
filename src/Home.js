@@ -2,10 +2,12 @@ import { useState } from "react";
 import { data } from "./Data";
 import Buttons from "./Buttons";
 import Book from "./Book";
+// import Slides from "./Slide";
 
 function Home () {
 
-        const [books,setBooks] = useState(data);
+ const [books, setBooks] = useState(data);
+
 
   const chosenBooks = (searchTerm) => {
     if (searchTerm) {
@@ -17,6 +19,7 @@ function Home () {
   }
 
   return <div>
+    {/* <Slides /> */}
     <Buttons filteredBooks = {chosenBooks}/>
     <Book availableBooks={books}/>
     </div>

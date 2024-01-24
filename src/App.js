@@ -10,10 +10,7 @@ import Home from './Home';
 import About from './About';
 import Services from './Services';
 import Order from './Order';
-import Slide from "react-slick";
-
-
-
+import Slides from "./Slide";
 
 
 function App() {
@@ -25,6 +22,9 @@ function App() {
     <h1> 📚 Around the Books</h1>
     <p>All bestsellers in one place</p>
     </div>
+
+    <Slides/>
+
    <Router>
     <nav>
       <Link to='/' className='link'>Home</Link>
@@ -40,7 +40,6 @@ function App() {
     </Routes>
    </Router>
 
-    <Slide/>
 
    <div>
     <footer>

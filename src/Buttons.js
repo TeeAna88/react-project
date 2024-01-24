@@ -1,7 +1,3 @@
-// import Book from "./Book";
-// import { data } from "./Data";
-// import { useState } from "react";
-
 function Buttons ({filteredBooks}) {
 
     return(
